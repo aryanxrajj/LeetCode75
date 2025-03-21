@@ -26,7 +26,7 @@ public class DecodeString {
                 }
                 currentString = decoded;
             } else {
-                currentString.append(c);
+                currentString.append(c); 
             }
         }
         return currentString.toString();
